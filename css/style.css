@@ -22,10 +22,7 @@ footer {
     #1e62e5 56.43%,
     #5894f7 100%
   );
-  overflow: hidden;
-  position: sticky;
-  top: 0;
-  z-index: 999;
+  
 }
 
 /* Style the links inside the navigation bar */
