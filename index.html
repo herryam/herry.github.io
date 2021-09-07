@@ -29,7 +29,9 @@
         <a href="#soc" style="margin-top: 0.25em">Sosial</a>
         <a href="#contact" style="margin-top: 0.25em">Kontak</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()" style="margin-top: 0.25em">
-          <i class="fa fa-bars"></i>
+        <div class="humberger" onclick="myFunction(this)"><div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div></div>
         </a>
       </div>
 
@@ -336,5 +338,11 @@ function myFunction() {
   })
 </script>
 
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+                             
     </body>
   </html>
